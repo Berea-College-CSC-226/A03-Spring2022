@@ -42,6 +42,7 @@ def main():
     # ...
     function_1()            # Function call to function_1
     function_2()            # Function call to function_2
+    print('Changes')
 
 
 main()
