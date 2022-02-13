@@ -3,7 +3,7 @@
 # TODO a03_username.py and copy this code into it!
 
 #################################################################################
-# Author:
+# Author: karakostas Z.
 # Username:
 #
 # Assignment:
