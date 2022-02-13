@@ -2,15 +2,10 @@
 # Author: Mostaphe Mohamud
 # Username: mohamudm
 # Assignment: AO3 - Fully Functional Gitty Psychedelic Robotic Turtles
-# Purpose:
+# Purpose: The purpose is to create a house that has a roof, two windows and a door with a grass planted infront of it.
 
 # Google Doc Link: https://bereacollege-my.sharepoint.com/:w:/g/personal/mohamudm_berea_edu/EaHp-zuFy8BFkZEAzQJBCDUBGGSOeNZPkmL1v2YEID5cLw?e=HMno0l
-#
-#################################################################################
-# Acknowledgements:
-#
-#
-#################################################################################
+
 
 import turtle
 
