@@ -141,8 +141,8 @@ akan.setheading(30)
 
 def function_whisker1():
     for i in range(5):
-        akan.forward(100)
-        akan.backward(100)
+        akan.forward(101)
+        akan.backward(101)
         akan.right(15)
 
 function_whisker1()
@@ -155,8 +155,8 @@ akan.setheading(150)
 
 def function_whisker2():
     for i in range(5):
-        akan.forward(100)
-        akan.back(100)
+        akan.forward(101)
+        akan.back(101)
         akan.left(15)
 
 function_whisker2()
