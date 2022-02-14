@@ -1,4 +1,3 @@
-
 #################################################################################
 # Author: karakostas Zacharias
 # Username: karakostasz
@@ -10,16 +9,18 @@
 #################################################################################
 import turtle
 
-# screen setup:
+#screen setup:
 wn = turtle.Screen()
 
-# turtle:
+
+#turtle:
 zach = turtle.Turtle()
 re = turtle.Turtle()
 ti = turtle.Turtle()
 ax = turtle.Turtle()
 we = turtle.Turtle()
 writer = turtle.Turtle()
+
 
 def backround(wn, zach):
     """
@@ -39,7 +40,7 @@ def lavaro():
     This function make the base of the banner which will hold the flag.
     '''
 
-    # put ax in place
+    #put ax in place
     ax.pencolor("#753000")
     ax.fillcolor("#753000")
     ax.penup()
@@ -87,7 +88,7 @@ def golden():
     we.fd(250)
     we.begin_fill()
     we.pendown()
-    for i in range(2):
+    for i in range (2):
         we.left(45)
         we.fd(10)
         we.left(90)
@@ -97,12 +98,11 @@ def golden():
     we.end_fill()
 
     # creation of the right golden plate:
-
     we.right(90)
     we.fd(290)
     we.left(90)
     we.begin_fill()
-    for i in range(2):
+    for i in range (2):
         we.right(45)
         we.fd(10)
         we.right(90)
@@ -169,7 +169,7 @@ def cross():
     re.pendown()
     re.begin_fill()
 
-    # first part of cross
+    #first part of cross
     re.right(90)
     re.fd(96)
     re.left(90)
@@ -183,7 +183,7 @@ def cross():
     re.right(90)
     re.fd(48)
 
-    # second part pf cross
+    #second part pf cross
     re.right(90)
     re.fd(96)
     re.left(90)
@@ -218,7 +218,7 @@ def krosia():
     ti.fd(250)
     ti.pendown()
 
-    # first part going up:
+    #first part going up:
     for i in range(30):
         ti.fd(5)
         ti.left(90)
@@ -233,7 +233,7 @@ def krosia():
     ti.fd(1)
     ti.right(90)
 
-    # second part going down
+    #second part going down
     for i in range(30):
         ti.fd(9)
         ti.left(90)
@@ -247,7 +247,6 @@ def krosia():
     ti.fd(5)
     ti.hideturtle()
 
-
 def revolution():
     '''
     This function print the an important date for Greece that symbolises its revolution.
@@ -255,7 +254,7 @@ def revolution():
     Further the function print the name "Greece" twice in each side.
     '''
 
-    # type an Important date for Greece
+    #type an Important date for Greece
     writer.penup()
     writer.left(90)
     writer.fd(40)
@@ -265,7 +264,7 @@ def revolution():
     writer.write("1821", font=("Arial", 20, 'normal', 'bold', 'italic'))
     writer.hideturtle()
 
-    # type Greece in both sides
+    #type Greece in both sides
 
     writer.fd(40)
     writer.fd(140)
@@ -273,7 +272,6 @@ def revolution():
     writer.write("GREECE", font=("Arial", 20, 'normal', 'bold', 'italic'))
     writer.fd(-420)
     writer.write("GREECE", font=("Arial", 20, 'normal', 'bold', 'italic'))
-
 
 def main():
     '''
@@ -288,8 +286,6 @@ def main():
     revolution()
     krosia()
 
-
 main()
 wn.exitonclick()
-
 
