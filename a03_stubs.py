@@ -18,7 +18,6 @@
 
 import turtle
 
-
 def function_1():
     """
     Docstring for function_1
