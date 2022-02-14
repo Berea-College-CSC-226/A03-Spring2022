@@ -22,7 +22,6 @@ we = turtle.Turtle()
 writer = turtle.Turtle()
 
 
-#setting a gif backround of dark wood!:
 def backround(wn, zach):
     """
     A new backround!
