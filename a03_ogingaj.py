@@ -72,12 +72,14 @@ def function_tongue():
 
 #drawing whiskers
 
+#right whiskers
 def function_whisker1():
     for i in range(5):
         akan.forward(101)
         akan.backward(101)
         akan.right(15)
 
+#left whiskers
 def function_whisker2():
     for i in range(5):
         akan.forward(101)
