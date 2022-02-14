@@ -317,4 +317,3 @@ def main():
     wn.exitonclick()                    # Exits window when user clicks on the canvas
 
 main()          # Call main()
-
