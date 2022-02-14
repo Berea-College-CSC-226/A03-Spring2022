@@ -160,7 +160,6 @@ def main():
     akan.goto(-30, 25)
     akan.pendown()
     akan.setheading(150)
-
     function_whisker2()
     akan.hideturtle()
 
