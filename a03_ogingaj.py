@@ -14,7 +14,6 @@
 #################################################################################
 
 import turtle
-import math
 wn = turtle.Screen() #setting up the turtle and the screen
 wn.colormode(255)
 wn.bgcolor(120,0,120)
@@ -31,41 +30,19 @@ def function_1():
     for i in range(72):
         akan.forward(15)
         akan.left(5)
-    #pass
-    # ....
-function_1()
-
-akan.penup()
-akan.goto(-80,90)
-akan.pendown()
 
 #draw eyes
-akan.left(90)
+
 def function_eye1():
     for i in range(36):
         akan.right(10)
         akan.forward(4)
 
-function_eye1()
-
-akan.penup()
-akan.goto(100,90)
-akan.pendown()
-akan.left(180)
 
 def function_eye2():
     for i in range(36):
         akan.right(10)
         akan.forward(4)
-
-function_eye2()
-
-
-akan.penup()
-akan.goto(25,50)
-akan.pendown()
-
-akan.right(90)
 
 #drawing nose
 
@@ -74,68 +51,24 @@ def function_nose():
         akan.forward(30)
         akan.left(120)
 
-function_nose()
-
-akan.left(60)
-akan.forward(30)
-
 #drawing mouth
 
 def function_mouth1():
     for b in range (4):
         akan.right(16)
         akan.forward(10)
-function_mouth1()
 
-akan.penup()
-akan.goto(25,50)
-akan.pendown()
-akan.left(60)
-akan.forward(30)
-akan.left(72)
+
 def function_mouth2():
     for i in range(4):
         akan.left(16)
         akan.forward(10)
 
-function_mouth2()
-
-akan.penup()
-akan.goto(-10,10)
-akan.right(90)
-akan.pendown()
 #drawing tongue
-def function_t():
+def function_tongue():
     for i in range(9):
         akan.forward(8)
         akan.left(21)
-
-function_t()
-
-#drawing ears
-akan.penup()
-akan.goto(114,212)
-akan.pendown()
-akan.right(21)
-akan.forward(80)
-akan.left(120)
-akan.forward(95)
-
-akan.penup()
-akan.goto(-115,195)
-akan.pendown()
-
-akan.setheading(90)
-akan.forward(95)
-akan.right(120)
-akan.forward(95)
-
-
-akan.penup()
-akan.goto(50,25)
-akan.pendown()
-
-akan.setheading(30)
 
 #drawing whiskers
 
@@ -145,40 +78,92 @@ def function_whisker1():
         akan.backward(101)
         akan.right(15)
 
-function_whisker1()
-
-akan.penup()
-akan.goto(-30,25)
-akan.pendown()
-akan.setheading(150)
-#akan.left(135)
-
 def function_whisker2():
     for i in range(5):
         akan.forward(101)
         akan.back(101)
         akan.left(15)
 
-function_whisker2()
+def main():
+    function_1()
+    akan.penup()
+    akan.goto(-80, 90)
+    akan.pendown()
+    akan.left(90)
+    #drawing eyes
+    function_eye1()
 
+    akan.penup()
+    akan.goto(100, 90)
+    akan.pendown()
+    akan.left(180)
 
-def function_3():
-    """
-    Docstring for function_2
-    """
-    pass
-    # ...
+    function_eye2()
 
+    akan.penup()
+    akan.goto(25, 50)
+    akan.pendown()
 
-#def main():
-    """
-    Docstring for main
-    """
-    # ...
-    function_1()            # Function call to function_1
-    function_2()            # Function call to function_2
+    akan.right(90)
+    #drawing nose
+    function_nose()
 
+    akan.left(60)
+    akan.forward(30)
 
-#main()
+    #draw mouth
+    function_mouth1()
+
+    akan.penup()
+    akan.goto(25, 50)
+    akan.pendown()
+    akan.left(60)
+    akan.forward(30)
+    akan.left(72)
+    function_mouth2()
+
+    akan.penup()
+    akan.goto(-10, 10)
+    akan.right(90)
+    akan.pendown()
+
+    function_tongue()
+
+    # drawing ears
+    akan.penup()
+    akan.goto(114, 212)
+    akan.pendown()
+    akan.right(21)
+    akan.forward(80)
+    akan.left(120)
+    akan.forward(95)
+
+    akan.penup()
+    akan.goto(-115, 195)
+    akan.pendown()
+
+    akan.setheading(90)
+    akan.forward(95)
+    akan.right(120)
+    akan.forward(95)
+
+    akan.penup()
+    akan.goto(50, 25)
+    akan.pendown()
+
+    akan.setheading(30)
+
+    # drawing whisker
+    function_whisker1()
+
+    akan.penup()
+    akan.goto(-30, 25)
+    akan.pendown()
+    akan.setheading(150)
+
+    function_whisker2()
+    akan.hideturtle()
+
+main()
 
 wn.exitonclick()
