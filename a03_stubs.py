@@ -3,8 +3,8 @@
 # TODO a03_username.py and copy this code into it!
 
 #################################################################################
-# Author:
-# Username:
+# Author: Rodolfo Alvarado
+# Username: Alvaradoreyesr2
 #
 # Assignment:
 # Purpose:
