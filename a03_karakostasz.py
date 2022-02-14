@@ -113,7 +113,6 @@ def golden():
     we.hideturtle()
 
 
-
 def perimeter():
     '''
     This function creates the perimeter of the war greek flag/banner:
