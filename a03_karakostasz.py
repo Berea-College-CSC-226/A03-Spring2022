@@ -273,7 +273,6 @@ def revolution():
     writer.fd(-420)
     writer.write("GREECE", font=("Arial", 20, 'normal', 'bold', 'italic'))
 
-
 def main():
     '''
     Gathering all function into one
