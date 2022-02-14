@@ -98,7 +98,6 @@ def golden():
     we.end_fill()
 
     # creation of the right golden plate:
-
     we.right(90)
     we.fd(290)
     we.left(90)
