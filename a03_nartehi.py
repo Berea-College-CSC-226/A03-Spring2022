@@ -99,16 +99,29 @@ def DrawRoof(g,h):
     ike.end_fill()
 
 
+def main():
+    wn=turtle.Screen()
+    ike=turtle.Turtle()
+    wn.bgcolor("lightblue")
+    turtle.colormode(255)
+    ike.pensize(2)
+    ike.pencolor("brown")
+    ike.hideturtle()
+    ike.speed(2)
+    ike.penup()
+    ike.goto(-200,-200)
+    ike.pendown()
 
-drawRectangle(300,320)
-movepen_1(-40,150)
-DrawDoor(10,200)
-movepen_2(-170,-80)
-DrawWindow_1(40,90)
-movepen_3(30,-80)
-DrawWindow_2(40,90)
-movepen_4(-240,120)
-DrawRoof(360,120)
+    drawRectangle(300,320)
+    movepen_1(-40,150)
+    DrawDoor(10,200)
+    movepen_2(-170,-80)
+    DrawWindow_1(40,90)
+    movepen_3(30,-80)
+    DrawWindow_2(40,90)
+    movepen_4(-240,120)
+    DrawRoof(360,120)
 
+main()
 
 wn.exitonclick()
