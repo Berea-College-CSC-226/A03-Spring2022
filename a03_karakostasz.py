@@ -2,16 +2,15 @@
 # Author: karakostas Zacharias
 # Username: karakostasz
 #
-# Assignment: A03
+# Assignment: A03...
 # Purpose: CSC 226 - This program creates the Greek war flag / banner with the main use of Turtle module.
 # Google Doc Link: https://docs.google.com/document/d/1qw9MNUGLKzGOSEt-z-c50qLjH5rsSSm2Iqx_4XDDflg/edit?usp=sharing
 #
 #################################################################################
 import turtle
 
-#screen setup:
+# screen setup:
 wn = turtle.Screen()
-
 
 #turtle:
 zach = turtle.Turtle()
@@ -288,4 +287,3 @@ def main():
 
 main()
 wn.exitonclick()
-
